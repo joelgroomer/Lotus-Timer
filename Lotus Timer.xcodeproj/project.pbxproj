@@ -15,6 +15,9 @@
 		5D61863E24B1A1970077EE01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D61863D24B1A1970077EE01 /* Preview Assets.xcassets */; };
 		5D61864124B1A1970077EE01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D61863F24B1A1970077EE01 /* LaunchScreen.storyboard */; };
 		5D61864C24B1A1970077EE01 /* Lotus_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D61864B24B1A1970077EE01 /* Lotus_TimerTests.swift */; };
+		5D61865E24B25D590077EE01 /* MyTimersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D61865D24B25D590077EE01 /* MyTimersView.swift */; };
+		5D61866024B25D9F0077EE01 /* QuickStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D61865F24B25D9F0077EE01 /* QuickStartView.swift */; };
+		5D61866224B25DC90077EE01 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D61866124B25DC90077EE01 /* MoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		5D61864724B1A1970077EE01 /* Lotus TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lotus TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D61864B24B1A1970077EE01 /* Lotus_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lotus_TimerTests.swift; sourceTree = "<group>"; };
 		5D61864D24B1A1970077EE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D61865D24B25D590077EE01 /* MyTimersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimersView.swift; sourceTree = "<group>"; };
+		5D61865F24B25D9F0077EE01 /* QuickStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickStartView.swift; sourceTree = "<group>"; };
+		5D61866124B25DC90077EE01 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +87,11 @@
 		5D61863024B1A1960077EE01 /* Lotus Timer */ = {
 			isa = PBXGroup;
 			children = (
-				5D61863124B1A1960077EE01 /* AppDelegate.swift */,
-				5D61863324B1A1960077EE01 /* SceneDelegate.swift */,
-				5D61863824B1A1960077EE01 /* ContentView.swift */,
-				5D61863A24B1A1970077EE01 /* Assets.xcassets */,
-				5D61863F24B1A1970077EE01 /* LaunchScreen.storyboard */,
-				5D61864224B1A1970077EE01 /* Info.plist */,
-				5D61863524B1A1960077EE01 /* Lotus_Timer.xcdatamodeld */,
+				5D61865A24B25CE70077EE01 /* Models */,
+				5D61865B24B25CF40077EE01 /* Views */,
+				5D61865C24B25D060077EE01 /* Controllers */,
+				5D61865724B25C900077EE01 /* Resrouces */,
+				5D61865624B25C720077EE01 /* Lifecycle */,
 				5D61863C24B1A1970077EE01 /* Preview Content */,
 			);
 			path = "Lotus Timer";
@@ -108,6 +112,51 @@
 				5D61864D24B1A1970077EE01 /* Info.plist */,
 			);
 			path = "Lotus TimerTests";
+			sourceTree = "<group>";
+		};
+		5D61865624B25C720077EE01 /* Lifecycle */ = {
+			isa = PBXGroup;
+			children = (
+				5D61863124B1A1960077EE01 /* AppDelegate.swift */,
+				5D61863324B1A1960077EE01 /* SceneDelegate.swift */,
+				5D61863F24B1A1970077EE01 /* LaunchScreen.storyboard */,
+			);
+			name = Lifecycle;
+			sourceTree = "<group>";
+		};
+		5D61865724B25C900077EE01 /* Resrouces */ = {
+			isa = PBXGroup;
+			children = (
+				5D61864224B1A1970077EE01 /* Info.plist */,
+				5D61863A24B1A1970077EE01 /* Assets.xcassets */,
+			);
+			name = Resrouces;
+			sourceTree = "<group>";
+		};
+		5D61865A24B25CE70077EE01 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5D61863524B1A1960077EE01 /* Lotus_Timer.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5D61865B24B25CF40077EE01 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5D61863824B1A1960077EE01 /* ContentView.swift */,
+				5D61865D24B25D590077EE01 /* MyTimersView.swift */,
+				5D61865F24B25D9F0077EE01 /* QuickStartView.swift */,
+				5D61866124B25DC90077EE01 /* MoreView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5D61865C24B25D060077EE01 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,10 +260,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D61866224B25DC90077EE01 /* MoreView.swift in Sources */,
 				5D61863224B1A1960077EE01 /* AppDelegate.swift in Sources */,
 				5D61863424B1A1960077EE01 /* SceneDelegate.swift in Sources */,
 				5D61863924B1A1960077EE01 /* ContentView.swift in Sources */,
+				5D61865E24B25D590077EE01 /* MyTimersView.swift in Sources */,
 				5D61863724B1A1960077EE01 /* Lotus_Timer.xcdatamodeld in Sources */,
+				5D61866024B25D9F0077EE01 /* QuickStartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
