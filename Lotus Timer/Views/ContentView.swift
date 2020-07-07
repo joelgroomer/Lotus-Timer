@@ -11,9 +11,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            MyTimers().tabItem {
-                Text("My Timers")
-                Image(systemName: "timer")
+            MyRoutines().tabItem {
+                Text("My Routines")
+                Image(systemName: "list.bullet")
             }
             QuickStart().tabItem {
                 Text("Quick Start")

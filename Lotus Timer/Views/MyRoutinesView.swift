@@ -1,5 +1,5 @@
 //
-//  MyTimersView.swift
+//  MyRoutinesView.swift
 //  Lotus Timer
 //
 //  Created by Joel Groomer on 7/5/20.
@@ -8,11 +8,17 @@
 
 import SwiftUI
 
-struct MyTimers: View {
+struct MyRoutines: View {
     var body: some View {
         VStack {
-            Text("My Timers")
+            Text("My Routines")
                 .font(.title)
         }
+    }
+}
+
+struct MyTimersView_Previews: PreviewProvider {
+    static var previews: some View {
+        MyRoutines()
     }
 }
