@@ -92,7 +92,6 @@
 		5D61863024B1A1960077EE01 /* Lotus Timer */ = {
 			isa = PBXGroup;
 			children = (
-				5D61866324B2E3100077EE01 /* Lotus Timer.entitlements */,
 				5D61865A24B25CE70077EE01 /* Models */,
 				5D61865B24B25CF40077EE01 /* Views */,
 				5D61865C24B25D060077EE01 /* Controllers */,
@@ -135,6 +134,7 @@
 			children = (
 				5D61864224B1A1970077EE01 /* Info.plist */,
 				5D61863A24B1A1970077EE01 /* Assets.xcassets */,
+				5D61866324B2E3100077EE01 /* Lotus Timer.entitlements */,
 			);
 			name = Resrouces;
 			sourceTree = "<group>";

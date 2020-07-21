@@ -59,6 +59,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 fatalError("Unresolved error \(error), \(error.userInfo)")
             }
         })
+        
+        /* INITIALIZE iCloud DATABASE
+        do {
+            // Uncomment to do a dry run and print the CK records it'll make
+//            try container.initializeCloudKitSchema(options: [.dryRun, .printSchema])
+            // Uncomment to initialize your schema
+//            try container.initializeCloudKitSchema()
+        } catch {
+            print("Unable to initialize CloudKit schema: \(error.localizedDescription)")
+        }
+         */
+        
         return container
     }()
 
