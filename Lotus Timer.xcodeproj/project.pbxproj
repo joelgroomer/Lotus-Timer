@@ -19,6 +19,9 @@
 		5D61866024B25D9F0077EE01 /* QuickStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D61865F24B25D9F0077EE01 /* QuickStartView.swift */; };
 		5D61866224B25DC90077EE01 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D61866124B25DC90077EE01 /* MoreView.swift */; };
 		5D61866624B2E33D0077EE01 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D61866524B2E33D0077EE01 /* CloudKit.framework */; };
+		5D69A240256A0E9600C570F0 /* Routine+CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D69A23F256A0E9600C570F0 /* Routine+CoreDataHelpers.swift */; };
+		5D69A244256A198D00C570F0 /* Step+CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D69A243256A198D00C570F0 /* Step+CoreDataHelpers.swift */; };
+		5D69A248256A1AE400C570F0 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D69A247256A1AE400C570F0 /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		5D61866124B25DC90077EE01 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
 		5D61866324B2E3100077EE01 /* Lotus Timer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Lotus Timer.entitlements"; sourceTree = "<group>"; };
 		5D61866524B2E33D0077EE01 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		5D69A23F256A0E9600C570F0 /* Routine+CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Routine+CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		5D69A243256A198D00C570F0 /* Step+CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Step+CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		5D69A247256A1AE400C570F0 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				5D61863524B1A1960077EE01 /* Lotus_Timer.xcdatamodeld */,
+				5D69A23F256A0E9600C570F0 /* Routine+CoreDataHelpers.swift */,
+				5D69A243256A198D00C570F0 /* Step+CoreDataHelpers.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -161,6 +169,7 @@
 		5D61865C24B25D060077EE01 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				5D69A247256A1AE400C570F0 /* DataController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -276,11 +285,14 @@
 			files = (
 				5D61866224B25DC90077EE01 /* MoreView.swift in Sources */,
 				5D61863224B1A1960077EE01 /* AppDelegate.swift in Sources */,
+				5D69A244256A198D00C570F0 /* Step+CoreDataHelpers.swift in Sources */,
 				5D61863424B1A1960077EE01 /* SceneDelegate.swift in Sources */,
 				5D61863924B1A1960077EE01 /* ContentView.swift in Sources */,
+				5D69A248256A1AE400C570F0 /* DataController.swift in Sources */,
 				5D61865E24B25D590077EE01 /* MyRoutinesView.swift in Sources */,
 				5D61863724B1A1960077EE01 /* Lotus_Timer.xcdatamodeld in Sources */,
 				5D61866024B25D9F0077EE01 /* QuickStartView.swift in Sources */,
+				5D69A240256A0E9600C570F0 /* Routine+CoreDataHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
