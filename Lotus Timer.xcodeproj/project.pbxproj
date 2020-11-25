@@ -7,66 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D61863224B1A1960077EE01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D61863124B1A1960077EE01 /* AppDelegate.swift */; };
-		5D61863424B1A1960077EE01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D61863324B1A1960077EE01 /* SceneDelegate.swift */; };
-		5D61863724B1A1960077EE01 /* Lotus_Timer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D61863524B1A1960077EE01 /* Lotus_Timer.xcdatamodeld */; };
-		5D61863924B1A1960077EE01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D61863824B1A1960077EE01 /* ContentView.swift */; };
-		5D61863B24B1A1970077EE01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D61863A24B1A1970077EE01 /* Assets.xcassets */; };
-		5D61863E24B1A1970077EE01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D61863D24B1A1970077EE01 /* Preview Assets.xcassets */; };
-		5D61864124B1A1970077EE01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D61863F24B1A1970077EE01 /* LaunchScreen.storyboard */; };
-		5D61864C24B1A1970077EE01 /* Lotus_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D61864B24B1A1970077EE01 /* Lotus_TimerTests.swift */; };
-		5D61865E24B25D590077EE01 /* MyRoutinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D61865D24B25D590077EE01 /* MyRoutinesView.swift */; };
-		5D61866024B25D9F0077EE01 /* QuickStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D61865F24B25D9F0077EE01 /* QuickStartView.swift */; };
-		5D61866224B25DC90077EE01 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D61866124B25DC90077EE01 /* MoreView.swift */; };
-		5D61866624B2E33D0077EE01 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D61866524B2E33D0077EE01 /* CloudKit.framework */; };
-		5D69A240256A0E9600C570F0 /* Routine+CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D69A23F256A0E9600C570F0 /* Routine+CoreDataHelpers.swift */; };
-		5D69A244256A198D00C570F0 /* Step+CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D69A243256A198D00C570F0 /* Step+CoreDataHelpers.swift */; };
-		5D69A248256A1AE400C570F0 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D69A247256A1AE400C570F0 /* DataController.swift */; };
+		5D33236C256EC9CC00C3FA65 /* Lotus_TimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D33236B256EC9CC00C3FA65 /* Lotus_TimerApp.swift */; };
+		5D332370256EC9CE00C3FA65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D33236F256EC9CE00C3FA65 /* Assets.xcassets */; };
+		5D332373256EC9CE00C3FA65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D332372256EC9CE00C3FA65 /* Preview Assets.xcassets */; };
+		5D332383256ECBE000C3FA65 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D332381256ECBE000C3FA65 /* Main.xcdatamodeld */; };
+		5D332387256ECCBF00C3FA65 /* Routine+CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D332385256ECCBF00C3FA65 /* Routine+CoreDataHelpers.swift */; };
+		5D332388256ECCBF00C3FA65 /* Step+CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D332386256ECCBF00C3FA65 /* Step+CoreDataHelpers.swift */; };
+		5D33238B256ECCDE00C3FA65 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D33238A256ECCDE00C3FA65 /* DataController.swift */; };
+		5D332392256ECD7100C3FA65 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D33238E256ECD7100C3FA65 /* MoreView.swift */; };
+		5D332393256ECD7100C3FA65 /* QuickStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D33238F256ECD7100C3FA65 /* QuickStartView.swift */; };
+		5D332394256ECD7100C3FA65 /* MyRoutinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D332390256ECD7100C3FA65 /* MyRoutinesView.swift */; };
+		5D332395256ECD7100C3FA65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D332391256ECD7100C3FA65 /* ContentView.swift */; };
+		5D33239C256ECEF800C3FA65 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D33239B256ECEF800C3FA65 /* CloudKit.framework */; };
+		5DF95BDE256EEED7001628DF /* RoutineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF95BDD256EEED7001628DF /* RoutineTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5D61864824B1A1970077EE01 /* PBXContainerItemProxy */ = {
+		5DF95BCA256EEE39001628DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5D61862624B1A1960077EE01 /* Project object */;
+			containerPortal = 5D332360256EC9CC00C3FA65 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5D61862D24B1A1960077EE01;
+			remoteGlobalIDString = 5D332367256EC9CC00C3FA65;
 			remoteInfo = "Lotus Timer";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5D61862E24B1A1960077EE01 /* Lotus Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lotus Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D61863124B1A1960077EE01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5D61863324B1A1960077EE01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5D61863624B1A1960077EE01 /* Lotus_Timer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lotus_Timer.xcdatamodel; sourceTree = "<group>"; };
-		5D61863824B1A1960077EE01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		5D61863A24B1A1970077EE01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5D61863D24B1A1970077EE01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5D61864024B1A1970077EE01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5D61864224B1A1970077EE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D61864724B1A1970077EE01 /* Lotus TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lotus TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D61864B24B1A1970077EE01 /* Lotus_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lotus_TimerTests.swift; sourceTree = "<group>"; };
-		5D61864D24B1A1970077EE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D61865D24B25D590077EE01 /* MyRoutinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRoutinesView.swift; sourceTree = "<group>"; };
-		5D61865F24B25D9F0077EE01 /* QuickStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickStartView.swift; sourceTree = "<group>"; };
-		5D61866124B25DC90077EE01 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
-		5D61866324B2E3100077EE01 /* Lotus Timer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Lotus Timer.entitlements"; sourceTree = "<group>"; };
-		5D61866524B2E33D0077EE01 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
-		5D69A23F256A0E9600C570F0 /* Routine+CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Routine+CoreDataHelpers.swift"; sourceTree = "<group>"; };
-		5D69A243256A198D00C570F0 /* Step+CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Step+CoreDataHelpers.swift"; sourceTree = "<group>"; };
-		5D69A247256A1AE400C570F0 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		5D332368256EC9CC00C3FA65 /* Lotus Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lotus Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D33236B256EC9CC00C3FA65 /* Lotus_TimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lotus_TimerApp.swift; sourceTree = "<group>"; };
+		5D33236F256EC9CE00C3FA65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D332372256EC9CE00C3FA65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5D332374256EC9CE00C3FA65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D332382256ECBE000C3FA65 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
+		5D332385256ECCBF00C3FA65 /* Routine+CoreDataHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Routine+CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		5D332386256ECCBF00C3FA65 /* Step+CoreDataHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Step+CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		5D33238A256ECCDE00C3FA65 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		5D33238E256ECD7100C3FA65 /* MoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		5D33238F256ECD7100C3FA65 /* QuickStartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickStartView.swift; sourceTree = "<group>"; };
+		5D332390256ECD7100C3FA65 /* MyRoutinesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyRoutinesView.swift; sourceTree = "<group>"; };
+		5D332391256ECD7100C3FA65 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5D332397256ECDD600C3FA65 /* Lotus Timer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Lotus Timer.entitlements"; sourceTree = "<group>"; };
+		5D33239B256ECEF800C3FA65 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		5DF95BC5256EEE39001628DF /* Lotus TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lotus TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF95BC9256EEE39001628DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DF95BDC256EEED6001628DF /* Lotus TimerTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lotus TimerTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		5DF95BDD256EEED7001628DF /* RoutineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5D61862B24B1A1960077EE01 /* Frameworks */ = {
+		5D332365256EC9CC00C3FA65 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D61866624B2E33D0077EE01 /* CloudKit.framework in Frameworks */,
+				5D33239C256ECEF800C3FA65 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D61864424B1A1970077EE01 /* Frameworks */ = {
+		5DF95BC2256EEE39001628DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,122 +73,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5D61862524B1A1960077EE01 = {
+		5D33235F256EC9CC00C3FA65 = {
 			isa = PBXGroup;
 			children = (
-				5D61863024B1A1960077EE01 /* Lotus Timer */,
-				5D61864A24B1A1970077EE01 /* Lotus TimerTests */,
-				5D61862F24B1A1960077EE01 /* Products */,
-				5D61866424B2E33D0077EE01 /* Frameworks */,
+				5D33236A256EC9CC00C3FA65 /* Lotus Timer */,
+				5DF95BC6256EEE39001628DF /* Lotus TimerTests */,
+				5D332369256EC9CC00C3FA65 /* Products */,
+				5D33239A256ECEF800C3FA65 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		5D61862F24B1A1960077EE01 /* Products */ = {
+		5D332369256EC9CC00C3FA65 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D61862E24B1A1960077EE01 /* Lotus Timer.app */,
-				5D61864724B1A1970077EE01 /* Lotus TimerTests.xctest */,
+				5D332368256EC9CC00C3FA65 /* Lotus Timer.app */,
+				5DF95BC5256EEE39001628DF /* Lotus TimerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5D61863024B1A1960077EE01 /* Lotus Timer */ = {
+		5D33236A256EC9CC00C3FA65 /* Lotus Timer */ = {
 			isa = PBXGroup;
 			children = (
-				5D61865A24B25CE70077EE01 /* Models */,
-				5D61865B24B25CF40077EE01 /* Views */,
-				5D61865C24B25D060077EE01 /* Controllers */,
-				5D61865724B25C900077EE01 /* Resrouces */,
-				5D61865624B25C720077EE01 /* Lifecycle */,
-				5D61863C24B1A1970077EE01 /* Preview Content */,
+				5D332380256ECAF300C3FA65 /* App */,
+				5D33237B256ECA9D00C3FA65 /* Models */,
+				5D33237C256ECAB100C3FA65 /* Views */,
+				5D33237D256ECAC000C3FA65 /* Controllers */,
+				5D33237E256ECAC800C3FA65 /* Helpers */,
+				5D33237F256ECAD100C3FA65 /* Resources */,
+				5D332371256EC9CE00C3FA65 /* Preview Content */,
 			);
 			path = "Lotus Timer";
 			sourceTree = "<group>";
 		};
-		5D61863C24B1A1970077EE01 /* Preview Content */ = {
+		5D332371256EC9CE00C3FA65 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				5D61863D24B1A1970077EE01 /* Preview Assets.xcassets */,
+				5D332372256EC9CE00C3FA65 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		5D61864A24B1A1970077EE01 /* Lotus TimerTests */ = {
+		5D33237B256ECA9D00C3FA65 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				5D61864B24B1A1970077EE01 /* Lotus_TimerTests.swift */,
-				5D61864D24B1A1970077EE01 /* Info.plist */,
-			);
-			path = "Lotus TimerTests";
-			sourceTree = "<group>";
-		};
-		5D61865624B25C720077EE01 /* Lifecycle */ = {
-			isa = PBXGroup;
-			children = (
-				5D61863124B1A1960077EE01 /* AppDelegate.swift */,
-				5D61863324B1A1960077EE01 /* SceneDelegate.swift */,
-				5D61863F24B1A1970077EE01 /* LaunchScreen.storyboard */,
-			);
-			name = Lifecycle;
-			sourceTree = "<group>";
-		};
-		5D61865724B25C900077EE01 /* Resrouces */ = {
-			isa = PBXGroup;
-			children = (
-				5D61864224B1A1970077EE01 /* Info.plist */,
-				5D61863A24B1A1970077EE01 /* Assets.xcassets */,
-				5D61866324B2E3100077EE01 /* Lotus Timer.entitlements */,
-			);
-			name = Resrouces;
-			sourceTree = "<group>";
-		};
-		5D61865A24B25CE70077EE01 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				5D61863524B1A1960077EE01 /* Lotus_Timer.xcdatamodeld */,
-				5D69A23F256A0E9600C570F0 /* Routine+CoreDataHelpers.swift */,
-				5D69A243256A198D00C570F0 /* Step+CoreDataHelpers.swift */,
+				5D332381256ECBE000C3FA65 /* Main.xcdatamodeld */,
+				5D332385256ECCBF00C3FA65 /* Routine+CoreDataHelpers.swift */,
+				5D332386256ECCBF00C3FA65 /* Step+CoreDataHelpers.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		5D61865B24B25CF40077EE01 /* Views */ = {
+		5D33237C256ECAB100C3FA65 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				5D61863824B1A1960077EE01 /* ContentView.swift */,
-				5D61865D24B25D590077EE01 /* MyRoutinesView.swift */,
-				5D61865F24B25D9F0077EE01 /* QuickStartView.swift */,
-				5D61866124B25DC90077EE01 /* MoreView.swift */,
+				5D332391256ECD7100C3FA65 /* ContentView.swift */,
+				5D33238E256ECD7100C3FA65 /* MoreView.swift */,
+				5D332390256ECD7100C3FA65 /* MyRoutinesView.swift */,
+				5D33238F256ECD7100C3FA65 /* QuickStartView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		5D61865C24B25D060077EE01 /* Controllers */ = {
+		5D33237D256ECAC000C3FA65 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				5D69A247256A1AE400C570F0 /* DataController.swift */,
+				5D33238A256ECCDE00C3FA65 /* DataController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		5D61866424B2E33D0077EE01 /* Frameworks */ = {
+		5D33237E256ECAC800C3FA65 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				5D61866524B2E33D0077EE01 /* CloudKit.framework */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5D33237F256ECAD100C3FA65 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5D33236F256EC9CE00C3FA65 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5D332380256ECAF300C3FA65 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5D332397256ECDD600C3FA65 /* Lotus Timer.entitlements */,
+				5D332374256EC9CE00C3FA65 /* Info.plist */,
+				5D33236B256EC9CC00C3FA65 /* Lotus_TimerApp.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		5D33239A256ECEF800C3FA65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D33239B256ECEF800C3FA65 /* CloudKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DF95BC6256EEE39001628DF /* Lotus TimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DF95BDC256EEED6001628DF /* Lotus TimerTests-Bridging-Header.h */,
+				5DF95BD9256EEE67001628DF /* Models */,
+				5DF95BC9256EEE39001628DF /* Info.plist */,
+			);
+			path = "Lotus TimerTests";
+			sourceTree = "<group>";
+		};
+		5DF95BD9256EEE67001628DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5DF95BDD256EEED7001628DF /* RoutineTests.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5D61862D24B1A1960077EE01 /* Lotus Timer */ = {
+		5D332367256EC9CC00C3FA65 /* Lotus Timer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D61865024B1A1970077EE01 /* Build configuration list for PBXNativeTarget "Lotus Timer" */;
+			buildConfigurationList = 5D332377256EC9CE00C3FA65 /* Build configuration list for PBXNativeTarget "Lotus Timer" */;
 			buildPhases = (
-				5D61862A24B1A1960077EE01 /* Sources */,
-				5D61862B24B1A1960077EE01 /* Frameworks */,
-				5D61862C24B1A1960077EE01 /* Resources */,
+				5D332364256EC9CC00C3FA65 /* Sources */,
+				5D332365256EC9CC00C3FA65 /* Frameworks */,
+				5D332366256EC9CC00C3FA65 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -199,47 +211,47 @@
 			);
 			name = "Lotus Timer";
 			productName = "Lotus Timer";
-			productReference = 5D61862E24B1A1960077EE01 /* Lotus Timer.app */;
+			productReference = 5D332368256EC9CC00C3FA65 /* Lotus Timer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5D61864624B1A1970077EE01 /* Lotus TimerTests */ = {
+		5DF95BC4256EEE39001628DF /* Lotus TimerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D61865324B1A1970077EE01 /* Build configuration list for PBXNativeTarget "Lotus TimerTests" */;
+			buildConfigurationList = 5DF95BCE256EEE39001628DF /* Build configuration list for PBXNativeTarget "Lotus TimerTests" */;
 			buildPhases = (
-				5D61864324B1A1970077EE01 /* Sources */,
-				5D61864424B1A1970077EE01 /* Frameworks */,
-				5D61864524B1A1970077EE01 /* Resources */,
+				5DF95BC1256EEE39001628DF /* Sources */,
+				5DF95BC2256EEE39001628DF /* Frameworks */,
+				5DF95BC3256EEE39001628DF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5D61864924B1A1970077EE01 /* PBXTargetDependency */,
+				5DF95BCB256EEE39001628DF /* PBXTargetDependency */,
 			);
 			name = "Lotus TimerTests";
 			productName = "Lotus TimerTests";
-			productReference = 5D61864724B1A1970077EE01 /* Lotus TimerTests.xctest */;
+			productReference = 5DF95BC5256EEE39001628DF /* Lotus TimerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5D61862624B1A1960077EE01 /* Project object */ = {
+		5D332360256EC9CC00C3FA65 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
-				ORGANIZATIONNAME = Julltron;
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
 				TargetAttributes = {
-					5D61862D24B1A1960077EE01 = {
-						CreatedOnToolsVersion = 11.5;
+					5D332367256EC9CC00C3FA65 = {
+						CreatedOnToolsVersion = 12.2;
 					};
-					5D61864624B1A1970077EE01 = {
-						CreatedOnToolsVersion = 11.5;
-						TestTargetID = 5D61862D24B1A1960077EE01;
+					5DF95BC4256EEE39001628DF = {
+						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
+						TestTargetID = 5D332367256EC9CC00C3FA65;
 					};
 				};
 			};
-			buildConfigurationList = 5D61862924B1A1960077EE01 /* Build configuration list for PBXProject "Lotus Timer" */;
+			buildConfigurationList = 5D332363256EC9CC00C3FA65 /* Build configuration list for PBXProject "Lotus Timer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -247,29 +259,28 @@
 				en,
 				Base,
 			);
-			mainGroup = 5D61862524B1A1960077EE01;
-			productRefGroup = 5D61862F24B1A1960077EE01 /* Products */;
+			mainGroup = 5D33235F256EC9CC00C3FA65;
+			productRefGroup = 5D332369256EC9CC00C3FA65 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5D61862D24B1A1960077EE01 /* Lotus Timer */,
-				5D61864624B1A1970077EE01 /* Lotus TimerTests */,
+				5D332367256EC9CC00C3FA65 /* Lotus Timer */,
+				5DF95BC4256EEE39001628DF /* Lotus TimerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5D61862C24B1A1960077EE01 /* Resources */ = {
+		5D332366256EC9CC00C3FA65 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D61864124B1A1970077EE01 /* LaunchScreen.storyboard in Resources */,
-				5D61863E24B1A1970077EE01 /* Preview Assets.xcassets in Resources */,
-				5D61863B24B1A1970077EE01 /* Assets.xcassets in Resources */,
+				5D332373256EC9CE00C3FA65 /* Preview Assets.xcassets in Resources */,
+				5D332370256EC9CE00C3FA65 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D61864524B1A1970077EE01 /* Resources */ = {
+		5DF95BC3256EEE39001628DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -279,54 +290,42 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5D61862A24B1A1960077EE01 /* Sources */ = {
+		5D332364256EC9CC00C3FA65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D61866224B25DC90077EE01 /* MoreView.swift in Sources */,
-				5D61863224B1A1960077EE01 /* AppDelegate.swift in Sources */,
-				5D69A244256A198D00C570F0 /* Step+CoreDataHelpers.swift in Sources */,
-				5D61863424B1A1960077EE01 /* SceneDelegate.swift in Sources */,
-				5D61863924B1A1960077EE01 /* ContentView.swift in Sources */,
-				5D69A248256A1AE400C570F0 /* DataController.swift in Sources */,
-				5D61865E24B25D590077EE01 /* MyRoutinesView.swift in Sources */,
-				5D61863724B1A1960077EE01 /* Lotus_Timer.xcdatamodeld in Sources */,
-				5D61866024B25D9F0077EE01 /* QuickStartView.swift in Sources */,
-				5D69A240256A0E9600C570F0 /* Routine+CoreDataHelpers.swift in Sources */,
+				5D332393256ECD7100C3FA65 /* QuickStartView.swift in Sources */,
+				5D332394256ECD7100C3FA65 /* MyRoutinesView.swift in Sources */,
+				5D332383256ECBE000C3FA65 /* Main.xcdatamodeld in Sources */,
+				5D332392256ECD7100C3FA65 /* MoreView.swift in Sources */,
+				5D33238B256ECCDE00C3FA65 /* DataController.swift in Sources */,
+				5D332395256ECD7100C3FA65 /* ContentView.swift in Sources */,
+				5D33236C256EC9CC00C3FA65 /* Lotus_TimerApp.swift in Sources */,
+				5D332387256ECCBF00C3FA65 /* Routine+CoreDataHelpers.swift in Sources */,
+				5D332388256ECCBF00C3FA65 /* Step+CoreDataHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D61864324B1A1970077EE01 /* Sources */ = {
+		5DF95BC1256EEE39001628DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D61864C24B1A1970077EE01 /* Lotus_TimerTests.swift in Sources */,
+				5DF95BDE256EEED7001628DF /* RoutineTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5D61864924B1A1970077EE01 /* PBXTargetDependency */ = {
+		5DF95BCB256EEE39001628DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5D61862D24B1A1960077EE01 /* Lotus Timer */;
-			targetProxy = 5D61864824B1A1970077EE01 /* PBXContainerItemProxy */;
+			target = 5D332367256EC9CC00C3FA65 /* Lotus Timer */;
+			targetProxy = 5DF95BCA256EEE39001628DF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		5D61863F24B1A1970077EE01 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5D61864024B1A1970077EE01 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		5D61864E24B1A1970077EE01 /* Debug */ = {
+		5D332375256EC9CE00C3FA65 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -352,6 +351,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -376,7 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -386,7 +386,7 @@
 			};
 			name = Debug;
 		};
-		5D61864F24B1A1970077EE01 /* Release */ = {
+		5D332376256EC9CE00C3FA65 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -412,6 +412,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -430,7 +431,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -440,16 +441,18 @@
 			};
 			name = Release;
 		};
-		5D61865124B1A1970077EE01 /* Debug */ = {
+		5D332378256EC9CE00C3FA65 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Lotus Timer/Lotus Timer.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Lotus Timer/Preview Content\"";
 				DEVELOPMENT_TEAM = 3C2X999TFX;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Lotus Timer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,16 +464,18 @@
 			};
 			name = Debug;
 		};
-		5D61865224B1A1970077EE01 /* Release */ = {
+		5D332379256EC9CE00C3FA65 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Lotus Timer/Lotus Timer.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Lotus Timer/Preview Content\"";
 				DEVELOPMENT_TEAM = 3C2X999TFX;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Lotus Timer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,15 +487,14 @@
 			};
 			name = Release;
 		};
-		5D61865424B1A1970077EE01 /* Debug */ = {
+		5DF95BCC256EEE39001628DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3C2X999TFX;
 				INFOPLIST_FILE = "Lotus TimerTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -498,21 +502,22 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.julltron.Lotus-TimerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lotus TimerTests/Models/Lotus TimerTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lotus Timer.app/Lotus Timer";
 			};
 			name = Debug;
 		};
-		5D61865524B1A1970077EE01 /* Release */ = {
+		5DF95BCD256EEE39001628DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3C2X999TFX;
 				INFOPLIST_FILE = "Lotus TimerTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -520,6 +525,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.julltron.Lotus-TimerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lotus TimerTests/Models/Lotus TimerTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lotus Timer.app/Lotus Timer";
@@ -529,29 +535,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5D61862924B1A1960077EE01 /* Build configuration list for PBXProject "Lotus Timer" */ = {
+		5D332363256EC9CC00C3FA65 /* Build configuration list for PBXProject "Lotus Timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D61864E24B1A1970077EE01 /* Debug */,
-				5D61864F24B1A1970077EE01 /* Release */,
+				5D332375256EC9CE00C3FA65 /* Debug */,
+				5D332376256EC9CE00C3FA65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D61865024B1A1970077EE01 /* Build configuration list for PBXNativeTarget "Lotus Timer" */ = {
+		5D332377256EC9CE00C3FA65 /* Build configuration list for PBXNativeTarget "Lotus Timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D61865124B1A1970077EE01 /* Debug */,
-				5D61865224B1A1970077EE01 /* Release */,
+				5D332378256EC9CE00C3FA65 /* Debug */,
+				5D332379256EC9CE00C3FA65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D61865324B1A1970077EE01 /* Build configuration list for PBXNativeTarget "Lotus TimerTests" */ = {
+		5DF95BCE256EEE39001628DF /* Build configuration list for PBXNativeTarget "Lotus TimerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D61865424B1A1970077EE01 /* Debug */,
-				5D61865524B1A1970077EE01 /* Release */,
+				5DF95BCC256EEE39001628DF /* Debug */,
+				5DF95BCD256EEE39001628DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -559,17 +565,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		5D61863524B1A1960077EE01 /* Lotus_Timer.xcdatamodeld */ = {
+		5D332381256ECBE000C3FA65 /* Main.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				5D61863624B1A1960077EE01 /* Lotus_Timer.xcdatamodel */,
+				5D332382256ECBE000C3FA65 /* Main.xcdatamodel */,
 			);
-			currentVersion = 5D61863624B1A1960077EE01 /* Lotus_Timer.xcdatamodel */;
-			path = Lotus_Timer.xcdatamodeld;
+			currentVersion = 5D332382256ECBE000C3FA65 /* Main.xcdatamodel */;
+			path = Main.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 5D61862624B1A1960077EE01 /* Project object */;
+	rootObject = 5D332360256EC9CC00C3FA65 /* Project object */;
 }

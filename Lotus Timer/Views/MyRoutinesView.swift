@@ -9,10 +9,35 @@
 import SwiftUI
 
 struct MyRoutines: View {
+    @EnvironmentObject var dataController: DataController
+    @Environment(\.managedObjectContext) var context
+    
+    let routines: FetchRequest<Routine>
+    
+    init() {
+        routines = FetchRequest<Routine>(entity: Routine.entity(), sortDescriptors: [NSSortDescriptor(keyPath: \Routine.listOrder, ascending: true)])
+    }
+    
     var body: some View {
         VStack {
             Text("My Routines")
                 .font(.title)
+            Button {
+                try? dataController.createSampleData()
+            } label: {
+                Text("Create sample data")
+            }
+            Button {
+                dataController.deleteAll()
+            } label: {
+                Text("Delete all")
+                    .foregroundColor(.red)
+            }
+            List {
+                ForEach(routines.wrappedValue) { routine in
+                    Text(routine.routineTitle)
+                }
+            }
         }
     }
 }

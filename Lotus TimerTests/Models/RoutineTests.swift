@@ -1,15 +1,13 @@
 //
-//  Lotus_TimerTests.swift
+//  RoutineTests.swift
 //  Lotus TimerTests
 //
-//  Created by Joel Groomer on 7/4/20.
-//  Copyright © 2020 Julltron. All rights reserved.
+//  Created by Joel Groomer on 11/25/20.
 //
 
 import XCTest
-@testable import Lotus_Timer
 
-class Lotus_TimerTests: XCTestCase {
+class RoutineTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
