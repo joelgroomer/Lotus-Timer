@@ -6,27 +6,65 @@
 //
 
 import XCTest
+import CoreData
+import SwiftUI
+@testable import Lotus_Timer
 
 class RoutineTests: XCTestCase {
 
+//    @EnvironmentObject
+    var dataController = DataController()
+    @Environment(\.managedObjectContext) var context
+    
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        let routine = Routine(context: context)
+        routine.author = "Author"
+        routine.category = "Category"
+        routine.listOrder = 0
+        routine.origin = Routine.Origin.user.rawValue
+        dataController.save()
+        
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        dataController.deleteAll()
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func testCreatedOneRoutine() throws {
+        
+        let fetchRequest = NSFetchRequest<NSNumber>(entityName: "Routine")
+        fetchRequest.resultType = .countResultType
+        
+        do {
+            let result = try context.fetch(fetchRequest)
+            let count = result.first!.intValue
+            print(count)
+            XCTAssert(count == 1)
+        } catch {
+            XCTFail("Count was not 1 after creating one Routine: \(error.localizedDescription)")
         }
+        
+    }
+
+    func testRoutineValues() throws {
+        
+        let fetchRequest: NSFetchRequest<Routine> = Routine.fetchRequest()
+        let results: [Routine]?
+        let routine: Routine
+        
+        do {
+            results = try context.fetch(fetchRequest)
+            routine = results![0]
+            XCTAssert(routine.author == "Author")
+            XCTAssert(routine.category == "Category")
+            XCTAssert(routine.listOrder == 0)
+            XCTAssert(routine.origin == Routine.Origin.user.rawValue)
+        } catch {
+            XCTFail("Failed to fetch Routine: \(error.localizedDescription)")
+        }
+        
+        
     }
 
 }
+
