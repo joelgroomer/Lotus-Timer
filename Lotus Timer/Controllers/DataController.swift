@@ -11,6 +11,7 @@ import SwiftUI
 
 class DataController: ObservableObject {
     let container: NSPersistentCloudKitContainer
+    let moc: NSManagedObjectContext
     
     init(inMemory: Bool = false) {
         container = NSPersistentCloudKitContainer(name: "Main")
@@ -26,6 +27,8 @@ class DataController: ObservableObject {
                 fatalError("Fatal error loading store: \(error.localizedDescription)")
             }
         }
+        
+        moc = container.viewContext
     }
     
     static var preview: DataController = {

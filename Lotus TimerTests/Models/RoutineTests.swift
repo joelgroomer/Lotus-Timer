@@ -12,11 +12,11 @@ import SwiftUI
 
 class RoutineTests: XCTestCase {
 
-//    @EnvironmentObject
     var dataController = DataController()
-    @Environment(\.managedObjectContext) var context
     
     override func setUpWithError() throws {
+        let context: NSManagedObjectContext = dataController.moc
+        dataController.deleteAll()
         let routine = Routine(context: context)
         routine.author = "Author"
         routine.category = "Category"
@@ -27,11 +27,11 @@ class RoutineTests: XCTestCase {
     }
 
     override func tearDownWithError() throws {
-        dataController.deleteAll()
+        
     }
 
     func testCreatedOneRoutine() throws {
-        
+        let context: NSManagedObjectContext = dataController.moc
         let fetchRequest = NSFetchRequest<NSNumber>(entityName: "Routine")
         fetchRequest.resultType = .countResultType
         
@@ -47,14 +47,12 @@ class RoutineTests: XCTestCase {
     }
 
     func testRoutineValues() throws {
-        
+        let context: NSManagedObjectContext = dataController.moc
         let fetchRequest: NSFetchRequest<Routine> = Routine.fetchRequest()
-        let results: [Routine]?
-        let routine: Routine
         
         do {
-            results = try context.fetch(fetchRequest)
-            routine = results![0]
+            let results = try context.fetch(fetchRequest)
+            let routine = results[0]
             XCTAssert(routine.author == "Author")
             XCTAssert(routine.category == "Category")
             XCTAssert(routine.listOrder == 0)
