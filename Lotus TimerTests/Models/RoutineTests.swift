@@ -12,11 +12,12 @@ import SwiftUI
 
 class RoutineTests: XCTestCase {
 
-    var dataController = DataController()
+    var dataController = DataController(inMemory: true)
     
     override func setUpWithError() throws {
+        dataController = DataController(inMemory: true)
         let context: NSManagedObjectContext = dataController.moc
-        dataController.deleteAll()
+//        dataController.deleteAll()
         let routine = Routine(context: context)
         routine.author = "Author"
         routine.category = "Category"
@@ -48,7 +49,7 @@ class RoutineTests: XCTestCase {
 
     func testRoutineValues() throws {
         let context: NSManagedObjectContext = dataController.moc
-        let fetchRequest: NSFetchRequest<Routine> = Routine.fetchRequest()
+        let fetchRequest: NSFetchRequest<Routine> = NSFetchRequest<Routine>(entityName: "Routine")
         
         do {
             let results = try context.fetch(fetchRequest)

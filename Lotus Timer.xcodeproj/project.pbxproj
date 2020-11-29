@@ -19,11 +19,7 @@
 		5D332394256ECD7100C3FA65 /* MyRoutinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D332390256ECD7100C3FA65 /* MyRoutinesView.swift */; };
 		5D332395256ECD7100C3FA65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D332391256ECD7100C3FA65 /* ContentView.swift */; };
 		5D33239C256ECEF800C3FA65 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D33239B256ECEF800C3FA65 /* CloudKit.framework */; };
-		5DAED00C256EF7E7004C53A0 /* Routine+CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D332385256ECCBF00C3FA65 /* Routine+CoreDataHelpers.swift */; };
-		5DAED00F256EF7EA004C53A0 /* Step+CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D332386256ECCBF00C3FA65 /* Step+CoreDataHelpers.swift */; };
-		5DAED014256EF848004C53A0 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D33238A256ECCDE00C3FA65 /* DataController.swift */; };
 		5DF95BDE256EEED7001628DF /* RoutineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF95BDD256EEED7001628DF /* RoutineTests.swift */; };
-		5DF95BE7256EF4A1001628DF /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D332381256ECBE000C3FA65 /* Main.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -314,11 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DAED014256EF848004C53A0 /* DataController.swift in Sources */,
-				5DF95BE7256EF4A1001628DF /* Main.xcdatamodeld in Sources */,
 				5DF95BDE256EEED7001628DF /* RoutineTests.swift in Sources */,
-				5DAED00F256EF7EA004C53A0 /* Step+CoreDataHelpers.swift in Sources */,
-				5DAED00C256EF7E7004C53A0 /* Routine+CoreDataHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
