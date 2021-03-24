@@ -16,7 +16,15 @@ extension Routine {
     // convert Core Data types into non-optionals and standard types
     var routineAuthor: String { author ?? "" }
     var routineCategory: String { category ?? "" }
-    var routineOrder: Int { Int(listOrder) }
+    var routineOrder: Int {
+        get {
+            Int(listOrder)
+        }
+        
+        set {
+            self.listOrder = Int16(newValue)
+        }
+    }
     var routineOrigin: Origin {
         get {
             Origin(rawValue: origin ?? "user") ?? .user

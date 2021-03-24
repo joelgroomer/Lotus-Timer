@@ -15,7 +15,13 @@ extension Step {
     
     // convert Core Data types into non-optionals and standard types
     var stepDuration: Int { Int(duration) }
-    var stepOrder: Int { Int(order) }
+    var stepOrder: Int {
+        get {
+            Int(order)
+        } set {
+            self.order = Int16(newValue)
+        }
+    }
     var stepTitle: String { title ?? "" }
     var stepType: StepType { StepType(rawValue: type ?? "silence") ?? .silence}
     
